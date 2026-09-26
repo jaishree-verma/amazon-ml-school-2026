@@ -1,0 +1,430 @@
+{
+  "model_comparison": {
+    "Model A (LightGBM Baseline)": {
+      "threshold": 0.85,
+      "precision": 0.9923636363636363,
+      "recall": 0.93640626787144,
+      "f1": 0.9635732360383688,
+      "macro_f05": 0.9697,
+      "exact_entity_accuracy": 80.76,
+      "singleton_fps": 3,
+      "fp_count": 63,
+      "fn_count": 556,
+      "inference_time": 0.18399977684020996
+    },
+    "Model B (LightGBM + Enhanced Feats)": {
+      "threshold": 0.85,
+      "precision": 0.9933742922539454,
+      "recall": 0.9431545236188951,
+      "f1": 0.9676132363295001,
+      "macro_f05": 0.9732,
+      "exact_entity_accuracy": 82.39999999999999,
+      "singleton_fps": 4,
+      "fp_count": 55,
+      "fn_count": 497,
+      "inference_time": 0.22617888450622559
+    },
+    "Model C (LightGBM Precision-Weighted)": {
+      "threshold": 0.85,
+      "precision": 0.9942077953421021,
+      "recall": 0.9423538831064852,
+      "f1": 0.967586611861421,
+      "macro_f05": 0.9732,
+      "exact_entity_accuracy": 82.48,
+      "singleton_fps": 4,
+      "fp_count": 48,
+      "fn_count": 504,
+      "inference_time": 0.2050027847290039
+    },
+    "Model D (XGBoost)": {
+      "threshold": 0.85,
+      "precision": 0.9939722724532851,
+      "recall": 0.9430401464028365,
+      "f1": 0.9678366005399696,
+      "macro_f05": 0.9731,
+      "exact_entity_accuracy": 82.52000000000001,
+      "singleton_fps": 4,
+      "fp_count": 50,
+      "fn_count": 498,
+      "inference_time": 0.08783864974975586
+    },
+    "Model E (HistGradientBoosting)": {
+      "threshold": 0.85,
+      "precision": 0.9937288953207911,
+      "recall": 0.9424682603225437,
+      "f1": 0.9674200176108012,
+      "macro_f05": 0.974,
+      "exact_entity_accuracy": 82.28,
+      "singleton_fps": 3,
+      "fp_count": 52,
+      "fn_count": 503,
+      "inference_time": 0.27086782455444336
+    }
+  },
+  "top_feature_importance": [
+    [
+      "name_partial_ratio",
+      581
+    ],
+    [
+      "addr_jaccard",
+      520
+    ],
+    [
+      "name_len_ratio",
+      485
+    ],
+    [
+      "jaro_winkler_similarity",
+      460
+    ],
+    [
+      "addr_set_ratio",
+      420
+    ],
+    [
+      "name_ratio",
+      390
+    ],
+    [
+      "addr_len_ratio",
+      369
+    ],
+    [
+      "translit_name_ratio",
+      348
+    ],
+    [
+      "name_sort_ratio",
+      328
+    ],
+    [
+      "cand_heuristic_score",
+      323
+    ],
+    [
+      "name_len_diff",
+      318
+    ],
+    [
+      "token_jaccard",
+      284
+    ],
+    [
+      "addr_ratio",
+      275
+    ],
+    [
+      "name_set_ratio",
+      258
+    ],
+    [
+      "locality_jaccard",
+      232
+    ]
+  ],
+  "ablation_results": {
+    "Baseline Features (18)": 0.9697,
+    "Baseline + New Name & Translit Feats (24)": 0.9729,
+    "Baseline + New Address & PIN Feats (22)": 0.9702,
+    "All Features (30)": 0.9732
+  },
+  "false_negative_breakdown": {
+    "marginal_score_near_threshold (0.70-0.85)": 36,
+    "missing_cand_address": 88,
+    "moderate_name_and_addr_noise": 49,
+    "weak_name_strong_address": 30,
+    "strong_name_weak_address": 4,
+    "native_script_transliteration_gap": 15
+  },
+  "false_positive_breakdown": {
+    "high_name_and_address_coincidence": 37,
+    "different_business_same_address_or_building": 7,
+    "same_or_near_identical_name_different_locality": 11
+  },
+  "top_hard_negatives_sample": [
+    {
+      "s1_id": "S1-334634602",
+      "s1_name": "Kestyn Arch",
+      "s1_addr": "9276 1025 fortville in",
+      "cand_id": "S3-419708185",
+      "cand_name": "Kesteon Arch",
+      "cand_addr": "9276 1025 fortville indiana",
+      "is_true_match": false,
+      "predicted_prob": 0.9998851127030594,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-895229187",
+      "s1_name": "Nagva Global Private Limited",
+      "s1_addr": "howrah kolkata west bengal 19 1 alipore road kolkata",
+      "cand_id": "S2-580756917",
+      "cand_name": "\u09a8\u09b0\u09cd\u09a5 \u0997\u09cd\u09b2\u09cb\u09ac\u09be\u09b2 \u09aa\u09cd\u09b0\u09be\u0987\u09ad\u09c7\u099f \u09b2\u09bf\u09ae\u09bf\u099f\u09c7\u09a1",
+      "cand_addr": "kailash 35 1 j l nehru road kolkata kolkata howrah west bengal",
+      "is_true_match": false,
+      "predicted_prob": 0.9976673402175525,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-748204124",
+      "s1_name": "Sweeney, Ripple and Ross",
+      "s1_addr": "50 billings way glade valley nc",
+      "cand_id": "S3-160345603",
+      "cand_name": "Inc Sweeney Ripple And Ross",
+      "cand_addr": "59 1 2 billings way glade valley north carolina",
+      "is_true_match": false,
+      "predicted_prob": 0.9976459200759337,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-6542140",
+      "s1_name": "Office of Finance",
+      "s1_addr": "4469 215th street fairview park oh",
+      "cand_id": "S3-520651014",
+      "cand_name": "Office of Finance Group",
+      "cand_addr": "4473 215th street fairview park ohio",
+      "is_true_match": false,
+      "predicted_prob": 0.9974792012430966,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-827965258",
+      "s1_name": "Dharmesh Holdings Care",
+      "s1_addr": "plot no 23 sparkling meadows near le meridien hotel wardha road pan jari nagpur maharashtra",
+      "cand_id": "S2-966525620",
+      "cand_name": "Dharmesh Holdings Care Industries",
+      "cand_addr": "h no 24 sparkling meadows near le meridien hotel wardha road pan jari nagpur \u092e\u0939 \u0930 \u0937\u091f\u0930",
+      "is_true_match": false,
+      "predicted_prob": 0.9972799522157556,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-697527652",
+      "s1_name": "Noble College",
+      "s1_addr": "736 gupta house 7th cross 3rd block kormangala near bda complex bangalore karnataka",
+      "cand_id": "S3-568729216",
+      "cand_name": "noble centre",
+      "cand_addr": "738 gupta house 7th cross 3rd block kormangala near bda complex bangalore ka",
+      "is_true_match": false,
+      "predicted_prob": 0.9970215133816728,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-574175396",
+      "s1_name": "Ziex Inc",
+      "s1_addr": "4050 norwood street roanoke city va",
+      "cand_id": "S3-820470667",
+      "cand_name": "Wexquo DBA: Horizon Concord LLC",
+      "cand_addr": "va 4050 norwood street roanoke city",
+      "is_true_match": false,
+      "predicted_prob": 0.9964436123864708,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-421683289",
+      "s1_name": "Sector-8 Latur Private Limited",
+      "s1_addr": "e 4 sector 8 noida uttar pradesh",
+      "cand_id": "S2-207125846",
+      "cand_name": "\u0938\u0947\u0935\u0928 \u0915\u0947\u092f\u0930 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "cand_addr": "greater noida c 4 uttar pradesh",
+      "is_true_match": false,
+      "predicted_prob": 0.9963420534907406,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-266500418",
+      "s1_name": "New Delhi India Private Limited",
+      "s1_addr": "flat no 4585 b 5 6 vasant kunj new delhi south west delhi delhi",
+      "cand_id": "S3-519742414",
+      "cand_name": "New Delhi (india)  Private Limited",
+      "cand_addr": "e 205 south delhi new delhi dl",
+      "is_true_match": false,
+      "predicted_prob": 0.9956788111206331,
+      "predicted_label": 1
+    },
+    {
+      "s1_id": "S1-328497075",
+      "s1_name": "Trimmer, Escalante and Zollinger LLC",
+      "s1_addr": "1510 alert warrenton nc",
+      "cand_id": "S2-684479579",
+      "cand_name": "Inc Trimmer, Escalante and Zollinger",
+      "cand_addr": "1523 1525 alert warrenton nc",
+      "is_true_match": false,
+      "predicted_prob": 0.9955131358679167,
+      "predicted_label": 1
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "threshold": 0.3,
+      "precision": 0.9828090281838382,
+      "recall": 0.9612261237561478,
+      "f1": 0.9718977680120273,
+      "macro_f05": 0.9702,
+      "exact_entity_accuracy": 84.92,
+      "singleton_fps": 12,
+      "fp_count": 147,
+      "fn_count": 339
+    },
+    {
+      "threshold": 0.4,
+      "precision": 0.9857764194193017,
+      "recall": 0.9591673338670936,
+      "f1": 0.9722898550724638,
+      "macro_f05": 0.9723,
+      "exact_entity_accuracy": 85.08,
+      "singleton_fps": 10,
+      "fp_count": 121,
+      "fn_count": 357
+    },
+    {
+      "threshold": 0.5,
+      "precision": 0.9879688605803255,
+      "recall": 0.958023561706508,
+      "f1": 0.9727658091864585,
+      "macro_f05": 0.9739,
+      "exact_entity_accuracy": 85.24000000000001,
+      "singleton_fps": 8,
+      "fp_count": 102,
+      "fn_count": 367
+    },
+    {
+      "threshold": 0.55,
+      "precision": 0.9885410513880685,
+      "recall": 0.9571085439780396,
+      "f1": 0.9725708972570898,
+      "macro_f05": 0.9734,
+      "exact_entity_accuracy": 85.11999999999999,
+      "singleton_fps": 8,
+      "fp_count": 97,
+      "fn_count": 375
+    },
+    {
+      "threshold": 0.6,
+      "precision": 0.9894624674402084,
+      "recall": 0.9558503946013954,
+      "f1": 0.9723660480539881,
+      "macro_f05": 0.9732,
+      "exact_entity_accuracy": 84.96000000000001,
+      "singleton_fps": 8,
+      "fp_count": 89,
+      "fn_count": 386
+    },
+    {
+      "threshold": 0.65,
+      "precision": 0.9903868976976027,
+      "recall": 0.9544778680086927,
+      "f1": 0.9721008794921079,
+      "macro_f05": 0.9736,
+      "exact_entity_accuracy": 84.8,
+      "singleton_fps": 8,
+      "fp_count": 81,
+      "fn_count": 398
+    },
+    {
+      "threshold": 0.7,
+      "precision": 0.9914285714285714,
+      "recall": 0.9525334553356971,
+      "f1": 0.9715919034008049,
+      "macro_f05": 0.9736,
+      "exact_entity_accuracy": 84.39999999999999,
+      "singleton_fps": 8,
+      "fp_count": 72,
+      "fn_count": 415
+    },
+    {
+      "threshold": 0.75,
+      "precision": 0.9924731182795699,
+      "recall": 0.9501315337984674,
+      "f1": 0.9708408812014259,
+      "macro_f05": 0.9743,
+      "exact_entity_accuracy": 83.96000000000001,
+      "singleton_fps": 6,
+      "fp_count": 63,
+      "fn_count": 436
+    },
+    {
+      "threshold": 0.8,
+      "precision": 0.9930480642454752,
+      "recall": 0.947615235045179,
+      "f1": 0.9697998361231417,
+      "macro_f05": 0.9747,
+      "exact_entity_accuracy": 83.36,
+      "singleton_fps": 4,
+      "fp_count": 58,
+      "fn_count": 458
+    },
+    {
+      "threshold": 0.85,
+      "precision": 0.9933742922539454,
+      "recall": 0.9431545236188951,
+      "f1": 0.9676132363295001,
+      "macro_f05": 0.9732,
+      "exact_entity_accuracy": 82.39999999999999,
+      "singleton_fps": 4,
+      "fp_count": 55,
+      "fn_count": 497
+    },
+    {
+      "threshold": 0.88,
+      "precision": 0.9941958887545345,
+      "recall": 0.9404094704334897,
+      "f1": 0.966554987362605,
+      "macro_f05": 0.9729,
+      "exact_entity_accuracy": 81.84,
+      "singleton_fps": 4,
+      "fp_count": 48,
+      "fn_count": 521
+    },
+    {
+      "threshold": 0.9,
+      "precision": 0.9946569520340012,
+      "recall": 0.9368637767356742,
+      "f1": 0.9648957474378608,
+      "macro_f05": 0.9727,
+      "exact_entity_accuracy": 81.12,
+      "singleton_fps": 3,
+      "fp_count": 44,
+      "fn_count": 552
+    },
+    {
+      "threshold": 0.92,
+      "precision": 0.9955984839222399,
+      "recall": 0.9313736703648633,
+      "f1": 0.9624157900957334,
+      "macro_f05": 0.9719,
+      "exact_entity_accuracy": 79.92,
+      "singleton_fps": 3,
+      "fp_count": 36,
+      "fn_count": 600
+    },
+    {
+      "threshold": 0.95,
+      "precision": 0.9966646077825818,
+      "recall": 0.9227953791604713,
+      "f1": 0.9583085877182563,
+      "macro_f05": 0.9702,
+      "exact_entity_accuracy": 77.84,
+      "singleton_fps": 2,
+      "fp_count": 27,
+      "fn_count": 675
+    }
+  ],
+  "decision_rules": {
+    "Rule A (Pure Threshold @ 0.85)": {
+      "macro_f05": 0.9732,
+      "exact_accuracy": 82.39999999999999,
+      "singleton_fps": 4
+    },
+    "Rule B (Threshold + Confidence Margin)": {
+      "macro_f05": 0.9743,
+      "exact_accuracy": 83.32000000000001,
+      "singleton_fps": 4
+    },
+    "Rule C (Threshold + Strong-Evidence Override)": {
+      "macro_f05": 0.9729,
+      "exact_accuracy": 83.0,
+      "singleton_fps": 6
+    }
+  }
+}

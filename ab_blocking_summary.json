@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "name": "Baseline (top_k=20)",
+    "total_time": 1.0469202995300293,
+    "blocking_and_feat_time": 0.9522285461425781,
+    "inference_time": 0.07190346717834473,
+    "total_candidate_pairs": 40021,
+    "avg_candidates": 16.0084,
+    "med_candidates": 20.0,
+    "max_candidates": 20,
+    "cand_recall": 92.01647031911243,
+    "cat_a": 698,
+    "cat_b": 83,
+    "cat_c": 103,
+    "precision": 0.9872287662740236,
+    "recall": 0.9106713942582637,
+    "f1": 0.9474059971442169,
+    "macro_f05": 0.951,
+    "singleton_fps": 10,
+    "exact_entity_accuracy": 75.76,
+    "correct_entities": 1894,
+    "incorrect_entities": 606
+  },
+  "enhanced": {
+    "name": "Enhanced (top_k=30 + PIN/Locality + Protection)",
+    "total_time": 1.3748326301574707,
+    "blocking_and_feat_time": 1.2338125705718994,
+    "inference_time": 0.10689139366149902,
+    "total_candidate_pairs": 57524,
+    "avg_candidates": 23.0096,
+    "med_candidates": 29.5,
+    "max_candidates": 30,
+    "cand_recall": 95.89385794349765,
+    "cat_a": 359,
+    "cat_b": 95,
+    "cat_c": 470,
+    "precision": 0.9463409064961754,
+    "recall": 0.9480727439094132,
+    "f1": 0.9472060335961604,
+    "macro_f05": 0.9428,
+    "singleton_fps": 21,
+    "exact_entity_accuracy": 76.88000000000001,
+    "correct_entities": 1922,
+    "incorrect_entities": 578
+  },
+  "comparison": {
+    "cat_a_recovered": 340,
+    "cat_a_recovery_pct": 48.71060171919771,
+    "new_candidate_pairs": 17503,
+    "pct_candidate_pairs_increase": 43.734539366832415,
+    "time_increase_pct": 31.321613572173913,
+    "macro_f05_diff": -0.008199999999999985,
+    "accuracy_diff": 1.1200000000000045
+  },
+  "remaining_cat_a_attribution": {
+    "missing_postal_pin_code": 112,
+    "cross_script_native_script": 196,
+    "missing_target_address": 41,
+    "candidate_pruning_rank_gt_30": 9,
+    "extreme_name_divergence_no_token_overlap": 1
+  }
+}

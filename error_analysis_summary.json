@@ -1,0 +1,136 @@
+{
+  "total_validation_entities": 2500,
+  "correct_entities": 1875,
+  "incorrect_entities": 625,
+  "entity_error_classification": {
+    "pure_false_negative (partial miss)": 497,
+    "over_prediction (all true + extra FP)": 59,
+    "mixed_partial (some TP, some FP, some FN)": 19,
+    "complete_miss": 39,
+    "singleton_false_positive": 8,
+    "pure_false_positive": 3
+  },
+  "pair_errors": {
+    "total_true_matches": 8743,
+    "cat_a_missed_by_blocking": 745,
+    "cat_b_rejected_by_lightgbm": 78,
+    "cat_c_accepted_incorrect_cands": 101,
+    "cat_a_by_country": {
+      "India": 496,
+      "US": 249
+    },
+    "cat_b_by_country": {
+      "India": 37,
+      "US": 41
+    },
+    "cat_c_by_country": {
+      "US": 46,
+      "India": 55
+    },
+    "cat_a_by_source": {
+      "S2": 362,
+      "S3": 383
+    },
+    "cat_b_by_source": {
+      "S2": 36,
+      "S3": 42
+    },
+    "cat_c_by_source": {
+      "S2": 53,
+      "S3": 48
+    },
+    "cat_a_avg_name_sim": 47.745773388441044,
+    "cat_b_avg_name_sim": 52.314303657602565,
+    "cat_a_avg_addr_sim": 68.0446905228055,
+    "cat_b_avg_addr_sim": 39.9457486403068
+  },
+  "blocking_stats": {
+    "candidate_recall": 91.47889740363719,
+    "avg_candidates": 16.3068,
+    "med_candidates": 20.0,
+    "max_candidates": 20,
+    "reduction_ratio": 99.9810094563749
+  },
+  "threshold_table": [
+    {
+      "threshold": 0.3,
+      "macro_f05": 0.944,
+      "precision": 0.9802785652656231,
+      "recall": 0.9096419993137367,
+      "f1": 0.9436402467963929,
+      "singleton_fps": 17
+    },
+    {
+      "threshold": 0.4,
+      "macro_f05": 0.9462,
+      "precision": 0.9832838038632986,
+      "recall": 0.908269472721034,
+      "f1": 0.9442891967417801,
+      "singleton_fps": 14
+    },
+    {
+      "threshold": 0.45,
+      "macro_f05": 0.9481,
+      "precision": 0.9846211087684484,
+      "recall": 0.9080407182889169,
+      "f1": 0.9447816256099013,
+      "singleton_fps": 11
+    },
+    {
+      "threshold": 0.5,
+      "macro_f05": 0.9481,
+      "precision": 0.9859522625559424,
+      "recall": 0.9071257005604484,
+      "f1": 0.9448978376124382,
+      "singleton_fps": 9
+    },
+    {
+      "threshold": 0.55,
+      "macro_f05": 0.9491,
+      "precision": 0.9874080538586211,
+      "recall": 0.9058675511838041,
+      "f1": 0.9448818897637795,
+      "singleton_fps": 8
+    },
+    {
+      "threshold": 0.6,
+      "macro_f05": 0.9493,
+      "precision": 0.9881353815411515,
+      "recall": 0.9049525334553357,
+      "f1": 0.9447164179104478,
+      "singleton_fps": 8
+    },
+    {
+      "threshold": 0.65,
+      "macro_f05": 0.9496,
+      "precision": 0.9888680425265791,
+      "recall": 0.9042662701589843,
+      "f1": 0.9446767833671883,
+      "singleton_fps": 7
+    },
+    {
+      "threshold": 0.7,
+      "macro_f05": 0.9497,
+      "precision": 0.9894750031324395,
+      "recall": 0.9032368752144573,
+      "f1": 0.944391293948816,
+      "singleton_fps": 7
+    },
+    {
+      "threshold": 0.75,
+      "macro_f05": 0.9499,
+      "precision": 0.9902059266700151,
+      "recall": 0.9019787258378131,
+      "f1": 0.9440354342491173,
+      "singleton_fps": 7
+    },
+    {
+      "threshold": 0.8,
+      "macro_f05": 0.9499,
+      "precision": 0.9910511721704058,
+      "recall": 0.8993480498684662,
+      "f1": 0.9429753552797265,
+      "singleton_fps": 5
+    }
+  ]
+}

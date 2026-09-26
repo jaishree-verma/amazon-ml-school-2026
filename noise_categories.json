@@ -1,0 +1,483 @@
+{
+  "abbreviations": [
+    {
+      "s1_id": "S1-693111833",
+      "s1_name": "Viraaj Brokerage (India) Corporation",
+      "s1_addr": "16 Tara Chand Dutta Street, 3Rd Floor, Kolkata, Kolkata, Howrah, West Bengal",
+      "s1_country": "India",
+      "match_id": "S2-289199523",
+      "match_name": "VIRAAJ BROKERAGE (INDIA) CORPORATION",
+      "match_addr": "16 TARA CHAND DUTTA STREET, 3RD FLOOR, KOLKATA, KOLKATA, West Bengal",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-693111833",
+      "s1_name": "Viraaj Brokerage (India) Corporation",
+      "s1_addr": "16 Tara Chand Dutta Street, 3Rd Floor, Kolkata, Kolkata, Howrah, West Bengal",
+      "s1_country": "India",
+      "match_id": "S3-736726288",
+      "match_name": "Viraaj (India) Corporation Partners",
+      "match_addr": "\u09aa\u09b6\u09cd\u099a\u09bf\u09ae\u09ac\u0999\u09cd\u0997, Tara Chand Dutta Street, 3Rd Floor, Kolkata, Kolkata",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-618246590",
+      "s1_name": "Pretty Constructions Corporation",
+      "s1_addr": "#12 Ward No 22, 2Nd Cross, Rahamaniya Nagar, Ramanagar, Bangalore Rural, Karnataka",
+      "s1_country": "India",
+      "match_id": "S3-958161415",
+      "match_name": "PRETTY CONSTRUCTIONS CORPORATION",
+      "match_addr": "Ramanagar, 2Nd Cross, Rahamaniya Nagar, Bangalore Rural, KA, #012 Ward No 22",
+      "match_country": "India"
+    }
+  ],
+  "legal_suffix": [
+    {
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+      "s1_country": "US",
+      "match_id": "S2-743505751",
+      "match_name": "Maure Williams Colombier",
+      "match_addr": "",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+      "s1_country": "US",
+      "match_id": "S3-775321672",
+      "match_name": "Dr\u00e9xkor",
+      "match_addr": "85 Wanye Avenue, Ticonderoga Townshiip, New York",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+      "s1_country": "US",
+      "match_id": "S3-11291185",
+      "match_name": "maurewilliamscolombier.com",
+      "match_addr": "Wayne Ave, Ticonderoga Townshiip, New York",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-55344266",
+      "s1_name": "Raj Investments LLP",
+      "s1_addr": "6(29), C.I.T. Colony, 2Nd Main Road Mylapore, Chennai, Tamil Nadu",
+      "s1_country": "India",
+      "match_id": "S2-249013014",
+      "match_name": "\u0bb0\u0bbe\u0b9c\u0bcd \u0b87\u0ba9\u0bcd\u0bb5\u0bc6\u0bb8\u0bcd\u0b9f\u0bcd\u0bae\u0bc6\u0ba3\u0bcd\u0b9f\u0bcd\u0bb8\u0bcd \u0b8e\u0bb2\u0bcd\u0b8e\u0bb2\u0bcd\u0baa\u0bbf",
+      "match_addr": "6(29), C.I.T. COLONY, 2ND MAIN ROAD MYLAPORE, CHENNAI, Tamil Nadu",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-55344266",
+      "s1_name": "Raj Investments LLP",
+      "s1_addr": "6(29), C.I.T. Colony, 2Nd Main Road Mylapore, Chennai, Tamil Nadu",
+      "s1_country": "India",
+      "match_id": "S3-478195123",
+      "match_name": "Raj Investments \u0b8e\u0bb2\u0bcd\u0b8e\u0bb2\u0bcd\u0baa\u0bbf",
+      "match_addr": "6(29), C.i.t. Colony, 2Nd Main Road Mylapore, Chennai, TN",
+      "match_country": "India"
+    }
+  ],
+  "typos": [
+    {
+      "s1_id": "S1-55344266",
+      "s1_name": "Raj Investments LLP",
+      "s1_addr": "6(29), C.I.T. Colony, 2Nd Main Road Mylapore, Chennai, Tamil Nadu",
+      "s1_country": "India",
+      "match_id": "S3-478195123",
+      "match_name": "Raj Investments \u0b8e\u0bb2\u0bcd\u0b8e\u0bb2\u0bcd\u0baa\u0bbf",
+      "match_addr": "6(29), C.i.t. Colony, 2Nd Main Road Mylapore, Chennai, TN",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-343815751",
+      "s1_name": "Dahlia Power Reliable Scientific LLC",
+      "s1_addr": "630 45th Terrace, Kansas City, MO",
+      "s1_country": "US",
+      "match_id": "S3-878454467",
+      "match_name": "Dahlia Ponr Reliable Scientific LLC",
+      "match_addr": "Missouri, 630 45th Terrace, Kansas City",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "s1_country": "US",
+      "match_id": "S2-553508714",
+      "match_name": "Payne Enterpires",
+      "match_addr": "3315 FREMONT ST, PEORIA, IL",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-29845983",
+      "s1_name": "Hendricks and Flowers Inc",
+      "s1_addr": "33 Sleepy Hollow Drive, Danbury, CT",
+      "s1_country": "US",
+      "match_id": "S2-648035184",
+      "match_name": "Hendricks and  Flowers Inc",
+      "match_addr": "CT, SLEEPY HOLLOW DRIVE, DANBURY",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-730934468",
+      "s1_name": "Orellana Investments LLC",
+      "s1_addr": "728 A Quail Avenue, Fl Ground Floor, Geneva, IA",
+      "s1_country": "US",
+      "match_id": "S3-352439310",
+      "match_name": "LLC Orellana Invsmbens",
+      "match_addr": "728 A Quail Avenue, Fl. Ground Floor, Geneva, Iowa",
+      "match_country": "US"
+    }
+  ],
+  "punctuation": [
+    {
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "s1_country": "US",
+      "match_id": "S2-625774905",
+      "match_name": "PAYNE-ENRTPRMISES",
+      "match_addr": "3315 FREMONT SAINT, PEORIA, IL",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-7293388",
+      "s1_name": "Chordia & Partners",
+      "s1_addr": "Faridabad, 1038 Sector 9, Haryana",
+      "s1_country": "India",
+      "match_id": "S2-7028416",
+      "match_name": "Chordia & Partners Company",
+      "match_addr": "\u0939\u0930\u093f\u092f\u093e\u0923\u093e, 1038 SECTOR 9, FARIDABAD",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-7293388",
+      "s1_name": "Chordia & Partners",
+      "s1_addr": "Faridabad, 1038 Sector 9, Haryana",
+      "s1_country": "India",
+      "match_id": "S2-442723188",
+      "match_name": "Chordia + Pagnters - 7306204978",
+      "match_addr": "\u0939\u0930\u093f\u092f\u093e\u0923\u093e, DOOR NO 1038 SECTOR 9, FARIDABAD",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-7293388",
+      "s1_name": "Chordia & Partners",
+      "s1_addr": "Faridabad, 1038 Sector 9, Haryana",
+      "s1_country": "India",
+      "match_id": "S2-157073701",
+      "match_name": "Chordia &-P\u00e1rtners Ltd",
+      "match_addr": "H.NO 1038 SECTOR 9, FARIABAD, Haryana",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-7293388",
+      "s1_name": "Chordia & Partners",
+      "s1_addr": "Faridabad, 1038 Sector 9, Haryana",
+      "s1_country": "India",
+      "match_id": "S3-523120965",
+      "match_name": "Smt Chordia  & Center",
+      "match_addr": "#1038 Sector 9, Faridabad, \u0939\u0930\u093f\u092f\u093e\u0923\u093e",
+      "match_country": "India"
+    }
+  ],
+  "word_order": [
+    {
+      "s1_id": "S1-29845983",
+      "s1_name": "Hendricks and Flowers Inc",
+      "s1_addr": "33 Sleepy Hollow Drive, Danbury, CT",
+      "s1_country": "US",
+      "match_id": "S3-588502663",
+      "match_name": "Hendricks and Inc Flowers",
+      "match_addr": "",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-730934468",
+      "s1_name": "Orellana Investments LLC",
+      "s1_addr": "728 A Quail Avenue, Fl Ground Floor, Geneva, IA",
+      "s1_country": "US",
+      "match_id": "S2-356983532",
+      "match_name": "Orellana Investments Investments Llc",
+      "match_addr": "",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-546142636",
+      "s1_name": "Crystal Staffing Solutions LLC",
+      "s1_addr": "8706 Kentucky Derby Drive, Waxhaw, NC",
+      "s1_country": "US",
+      "match_id": "S3-200008747",
+      "match_name": "Llc Crystal Staffing Solutions",
+      "match_addr": "870 Kentucky Derby Drive, Waxhaw, North Carolina",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-145361722",
+      "s1_name": "Dick Regional Armada Corp",
+      "s1_addr": "33466 Warwick Hills Road, Yucaipa, CA",
+      "s1_country": "US",
+      "match_id": "S3-96572514",
+      "match_name": "[Corp] Dick Regional Armada",
+      "match_addr": "Yucaipa, California, 33466 Warwik Hills Road",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-503957000",
+      "s1_name": "AP Hospitality Inc",
+      "s1_addr": "20085 Us 23, Circleville, OH",
+      "s1_country": "US",
+      "match_id": "S2-353308450",
+      "match_name": "AP  Inc Hospitality",
+      "match_addr": "20085 US 23, CIRCLEVILLE, OH",
+      "match_country": "US"
+    }
+  ],
+  "transliteration": [],
+  "address_abbreviations": [
+    {
+      "s1_id": "S1-965667",
+      "s1_name": "Maure Williams Colombier Inc",
+      "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+      "s1_country": "US",
+      "match_id": "S3-11291185",
+      "match_name": "maurewilliamscolombier.com",
+      "match_addr": "Wayne Ave, Ticonderoga Townshiip, New York",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "s1_country": "US",
+      "match_id": "S2-478959098",
+      "match_name": "Payne \u00c9nterprises",
+      "match_addr": "3315 FREMONT ST, PEORIA, IL",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "s1_country": "US",
+      "match_id": "S2-553508714",
+      "match_name": "Payne Enterpires",
+      "match_addr": "3315 FREMONT ST, PEORIA, IL",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "s1_country": "US",
+      "match_id": "S3-728090388",
+      "match_name": "Payne Etrepndiels",
+      "match_addr": "3315 Fremont St, Peoria, Illinois",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-102811957",
+      "s1_name": "Payne Enterprises",
+      "s1_addr": "3315 Fremont Street, Peoria, IL",
+      "s1_country": "US",
+      "match_id": "S3-449308785",
+      "match_name": "Payne Enterprises  LLC",
+      "match_addr": "Fremont St, Peoria, Illinois",
+      "match_country": "US"
+    }
+  ],
+  "missing_address_components": [
+    {
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "s1_addr": "Af-684, Nandgram Near Mother India Public School. Ph. 989, 9487203, Ghaziabad, Uttar Pradesh",
+      "s1_country": "India",
+      "match_id": "S2-24659151",
+      "match_name": "\u090f\u0938\u090f\u0938 \u092b\u0942\u0921 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "AF-0684, Uttar Pradesh, GHAZIABAD, 9487203",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "s1_addr": "Af-684, Nandgram Near Mother India Public School. Ph. 989, 9487203, Ghaziabad, Uttar Pradesh",
+      "s1_country": "India",
+      "match_id": "S3-679606215",
+      "match_name": "\u090f\u0938\u090f\u0938 \u092b\u0942\u0921 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "Af-684, Ghaziabad, UP",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-318373630",
+      "s1_name": "Red Ventures Private Limited",
+      "s1_addr": "Rajasthan, Jaipur, Banipark, Gokul Apartment, E-3A Kanti Chandra Road, G-1",
+      "s1_country": "India",
+      "match_id": "S2-660036492",
+      "match_name": "\u0930\u0947\u0921 \u0935\u0947\u0902\u091a\u0930\u094d\u0938 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "G-1, BANIPARK, JAIPUR, Rajasthan",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-789009573",
+      "s1_name": "Hotel Enterprises Limited",
+      "s1_addr": "Wz-187C Shop No.13, 14 Kh. No.47 S/F. Vikaspuri Budhela Village Behind Oxford School, Delhi, West Delhi, Delhi",
+      "s1_country": "India",
+      "match_id": "S2-383871912",
+      "match_name": "\u0939\u094b\u091f\u0932 \u090f\u0902\u091f\u0930\u092a\u094d\u0930\u093e\u0907\u091c\u0947\u091c \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "WZ-187C SHOP NO.13, DELHI, WEST DELHI, Delhi",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-282467635",
+      "s1_name": "Prem & Sons Pvt Ltd",
+      "s1_addr": "D-4, Chandana Apartments82, Infantry Road, Bangalore, Karnataka",
+      "s1_country": "India",
+      "match_id": "S3-138350041",
+      "match_name": "Prem & Pvt Ltd Partners",
+      "match_addr": "D-4, Bangalore, KA",
+      "match_country": "India"
+    }
+  ],
+  "postal_pin_variation": [
+    {
+      "s1_id": "S1-503957000",
+      "s1_name": "AP Hospitality Inc",
+      "s1_addr": "20085 Us 23, Circleville, OH",
+      "s1_country": "US",
+      "match_id": "S3-858763214",
+      "match_name": "[Inc] AP Hospitality",
+      "match_addr": "20085-20089 Us 23, Circleville, Ohio",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-503957000",
+      "s1_name": "AP Hospitality Inc",
+      "s1_addr": "20085 Us 23, Circleville, OH",
+      "s1_country": "US",
+      "match_id": "S3-33665521",
+      "match_name": "AP Hospitality Inc",
+      "match_addr": "20085-20089 Us 23, Circleville, Ohio",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-503957000",
+      "s1_name": "AP Hospitality Inc",
+      "s1_addr": "20085 Us 23, Circleville, OH",
+      "s1_country": "US",
+      "match_id": "S3-555791452",
+      "match_name": "AP AP Hospitality Incorporated",
+      "match_addr": "20085-20089 Us 23, Circleville, Ohio",
+      "match_country": "US"
+    }
+  ],
+  "house_number_variation": [
+    {
+      "s1_id": "S1-18727616",
+      "s1_name": "Lumay Boral",
+      "s1_addr": "1056 Belden Avenue, Akron, OH",
+      "s1_country": "US",
+      "match_id": "S2-755677256",
+      "match_name": "Lumay Boral Inc.",
+      "match_addr": "1056-1060 BELDEN AVE, PO BOX 8807, AKRON, OH",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-318373630",
+      "s1_name": "Red Ventures Private Limited",
+      "s1_addr": "Rajasthan, Jaipur, Banipark, Gokul Apartment, E-3A Kanti Chandra Road, G-1",
+      "s1_country": "India",
+      "match_id": "S3-804600254",
+      "match_name": "Red Ventures Private",
+      "match_addr": "Doro No 316 G-1, Gokul Apartment, E-3a Kanti Chandra Road, Banipark, Subhash Nagar, RJ",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-789009573",
+      "s1_name": "Hotel Enterprises Limited",
+      "s1_addr": "Wz-187C Shop No.13, 14 Kh. No.47 S/F. Vikaspuri Budhela Village Behind Oxford School, Delhi, West Delhi, Delhi",
+      "s1_country": "India",
+      "match_id": "S2-383871912",
+      "match_name": "\u0939\u094b\u091f\u0932 \u090f\u0902\u091f\u0930\u092a\u094d\u0930\u093e\u0907\u091c\u0947\u091c \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "WZ-187C SHOP NO.13, DELHI, WEST DELHI, Delhi",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-789009573",
+      "s1_name": "Hotel Enterprises Limited",
+      "s1_addr": "Wz-187C Shop No.13, 14 Kh. No.47 S/F. Vikaspuri Budhela Village Behind Oxford School, Delhi, West Delhi, Delhi",
+      "s1_country": "India",
+      "match_id": "S3-74481402",
+      "match_name": "Hotel Limited Services",
+      "match_addr": "Block B-517 Wz-187c Shop No.13, Divreportingcircle, West Delhi, DL",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-789009573",
+      "s1_name": "Hotel Enterprises Limited",
+      "s1_addr": "Wz-187C Shop No.13, 14 Kh. No.47 S/F. Vikaspuri Budhela Village Behind Oxford School, Delhi, West Delhi, Delhi",
+      "s1_country": "India",
+      "match_id": "S3-576451439",
+      "match_name": "Hotel \u00c9nterprises Limited",
+      "match_addr": "Block B-517 Wz-187c Shop No.13, South West Delhi, Delhi, DL",
+      "match_country": "India"
+    }
+  ],
+  "landmark_based": [
+    {
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "s1_addr": "Af-684, Nandgram Near Mother India Public School. Ph. 989, 9487203, Ghaziabad, Uttar Pradesh",
+      "s1_country": "India",
+      "match_id": "S2-153058913",
+      "match_name": "\u090f\u0938\u090f\u0938 \u092b\u0942\u0921 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "AF-0684, NANDGRAM NEAR MOTHER INDIA PUBLIC SCHOOL. PH. 989, GHAZIABAD, 9487203, \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "s1_addr": "Af-684, Nandgram Near Mother India Public School. Ph. 989, 9487203, Ghaziabad, Uttar Pradesh",
+      "s1_country": "India",
+      "match_id": "S2-24659151",
+      "match_name": "\u090f\u0938\u090f\u0938 \u092b\u0942\u0921 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "AF-0684, Uttar Pradesh, GHAZIABAD, 9487203",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-656753428",
+      "s1_name": "Ss Food Private Limited",
+      "s1_addr": "Af-684, Nandgram Near Mother India Public School. Ph. 989, 9487203, Ghaziabad, Uttar Pradesh",
+      "s1_country": "India",
+      "match_id": "S3-679606215",
+      "match_name": "\u090f\u0938\u090f\u0938 \u092b\u0942\u0921 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "Af-684, Ghaziabad, UP",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-789009573",
+      "s1_name": "Hotel Enterprises Limited",
+      "s1_addr": "Wz-187C Shop No.13, 14 Kh. No.47 S/F. Vikaspuri Budhela Village Behind Oxford School, Delhi, West Delhi, Delhi",
+      "s1_country": "India",
+      "match_id": "S2-383871912",
+      "match_name": "\u0939\u094b\u091f\u0932 \u090f\u0902\u091f\u0930\u092a\u094d\u0930\u093e\u0907\u091c\u0947\u091c \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+      "match_addr": "WZ-187C SHOP NO.13, DELHI, WEST DELHI, Delhi",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-789009573",
+      "s1_name": "Hotel Enterprises Limited",
+      "s1_addr": "Wz-187C Shop No.13, 14 Kh. No.47 S/F. Vikaspuri Budhela Village Behind Oxford School, Delhi, West Delhi, Delhi",
+      "s1_country": "India",
+      "match_id": "S3-74481402",
+      "match_name": "Hotel Limited Services",
+      "match_addr": "Block B-517 Wz-187c Shop No.13, Divreportingcircle, West Delhi, DL",
+      "match_country": "India"
+    }
+  ]
+}

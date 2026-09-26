@@ -1,0 +1,22 @@
+# Large dataset files (Amazon ML Challenge datasets are ~2.5GB and should be downloaded locally)
+student_resource/dataset/
+dataset/
+*.tsv.zip
+*.zip
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.log
