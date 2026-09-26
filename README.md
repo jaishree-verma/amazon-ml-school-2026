@@ -1,8 +1,8 @@
-# Amazon ML Challenge 2026 — Business Entity Resolution
+# Amazon ML Challenge 2026 - Business Entity Resolution
 
 High-quality, scalable Business Entity Resolution pipeline for matching noisy, multi-source business records against a reference dataset to maximize **Macro $F_{0.5}$** (precision-weighted).
 
-## 🚀 Key Results & Metrics
+## Key Results & Metrics
 
 - **Candidate Recall**: **96.88%**
 - **Pair Precision**: **99.30%**
@@ -13,7 +13,7 @@ High-quality, scalable Business Entity Resolution pipeline for matching noisy, m
 
 ---
 
-## 🏗️ Pipeline Architecture
+## Pipeline Architecture
 
 1. **Text Normalization Engine (`src/normalize.py`)**:
    - Universal accent removal via Unicode NFKD.
@@ -39,7 +39,7 @@ High-quality, scalable Business Entity Resolution pipeline for matching noisy, m
 
 ---
 
-## 💻 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
