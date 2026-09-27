@@ -131,7 +131,7 @@ A gradient-boosted decision tree classifier is trained on pairwise feature vecto
 ### Directory Structure
 
 ```
-<team_name>_submission.zip
+Bugs2_submission.zip
 ├── output/
 │   ├── matching_results.tsv
 │   └── candidate_pairs.tsv
