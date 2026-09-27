@@ -3,6 +3,8 @@ student_resource/dataset/
 dataset/
 *.tsv.zip
 *.zip
+output/
+student_resource/output/
 
 # Python artifacts
 __pycache__/
