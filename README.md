@@ -17,7 +17,7 @@ High-quality, scalable Business Entity Resolution pipeline for matching noisy, m
 
 ---
 
-## 🏗️ Production Pipeline Architecture
+## Production Pipeline Architecture
 
 The final production pipeline follows a deterministic multi-stage design:
 
